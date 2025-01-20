@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Quicksand", serif;
+}
+body{
+    max-width: 1160px;
+    margin: 0 auto;background-color: rgba(0, 0, 0,.02);
+}
+/* shared style */
+/* ----------------- */
+.display-flex{
+    display: flex;
+}
+.btn-1{
+    font-size:1.25rem;
+    font-weight:600;
+    color:#fff;
+    padding:10px 60px;
+    background-color:var(--orange);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+:root{
+    --sky-blue:#01ACFD;
+    --orange: #FEA301;
+    --dark-blue:#5D58EF;
+    --light-blue:#05D4DF;
+    --black:#000;
+}
+
+
+/* header section start */
+/* ------------------------ */
+nav{
+   justify-content: space-between; 
+   align-items: center;
+   margin:20px 0px;
+}
+.navbar-left{
+    align-items: center;
+}
+.navbar-logo{
+    margin-right: 10px;
+}
+.logo-left-content{
+    font-size:2rem;
+    font-weight:700;
+    line-height: 30px;
+}
+
+.navbar-middle-content{
+    justify-content: space-between;
+}
+.navbar-middle-content ul{
+    list-style: none;
+}
+.navbar-middle-content ul a{
+    text-decoration: none;
+    margin-right: 32px;
+    font-size:1.25rem;
+    font-weight:500;
+    line-height: 30px;
+}
+.nav-link-1{
+    font-weight: 800;
+    color:var(--orange);
+}
+.nav-link-2{
+    color:var(--sky-blue);
+}
+.nav-link-3{
+
+    color:var(--light-blue);
+}
+.nav-link-4{
+    color:var(--dark-blue);
+}
+nav .btn-group .fa-solid{
+    display: none;
+}
+hr{
+    display: none;
+    height:0.7px;
+    background-color:var(--orange);
+}
+/* banner section start */
+/* ------------------------ */
+.banner{
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.banner-content{
+    max-width: 740px;
+}
+.banner-title{
+    font-size:3.5rem;
+    font-weight:700;
+    line-height: 3.5rem;
+    margin-bottom: 24px;
+}
+.banner-title #empowering{
+    color:var(--orange);
+}
+.banner-title #vision{
+    color:var(--sky-blue);
+}
+.banner-content p{
+    font-size: 1.25rem;
+    font-weight:400;
+    margin-bottom: 24px;
+}
+.banner .btn-1{
+    padding:10px 47px;
+    background-color: var(--black);
+}
+.banner-image{
+    width: calc(100%-50px);
+}
+
