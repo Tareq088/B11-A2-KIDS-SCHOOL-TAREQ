@@ -41,6 +41,16 @@
     .area-small .date{
         top:135px;
     }
+    /* footer section */
+    /* ------------------- */
+
+   .footer-content{
+        flex-direction: column;
+    }
+    .footer-section .footer-header .footer-title{
+        font-size:1.25rem;
+
+    }
 
 
     

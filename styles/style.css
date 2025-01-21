@@ -243,8 +243,8 @@ banner-image img{
    
     /* background: linear-gradient(00deg, rgb(249,223,176), white), url("../assets/bg.png");  */
 
-    background:linear-gradient(rgba(0, 255, 255, 0.1), rgba(0, 255, 255, 0.1)),url("../assets/dribble.png");
-    background-image: url("../assets/bg.png");
+    background:linear-gradient(0deg,rgba(249,224,181,0.7), rgb(249,247,245,0.2)),url("../assets/bg.png");
+    /* background-image: url("../assets/bg.png"); */
     background-repeat: no-repeat;
     background-position: center top;
     /* background-position: 65% 20%;   */
@@ -318,6 +318,7 @@ position: relative;
 }
 .grid-2 .area-small img{
     width:100%;
+    /* object-fit: cover; */
     border-radius: 16px 16px 0 0;
 }
 .grid-2 .area-small h4{
@@ -336,7 +337,6 @@ position: relative;
 .area-small .date-5{
     background-color:var(--green-light) ;
 }
-
 .area-small .date-3{
     background-color:var(--blue) ;
 }
@@ -344,7 +344,60 @@ position: relative;
     border:1px solid whitesmoke;
 }
 .stories-section .btn-1{
-    background-color: black;
-    color:white;
-    margin: 0 auto;
+    background-color:var(--black);
 }
+/* footer section start */
+/* -------------------- */
+.footer-section{
+    padding-top: 60px;
+    background-color: #01ACFD;
+    padding-bottom: 80px;
+    color:white;
+}
+.footer-content{
+    gap:130px;
+}
+.footer-section .footer-header{
+    align-items: center;
+    gap:11px;
+    margin-bottom: 35px;
+}
+.footer-section .footer-header .footer-title{
+    font-size:2.5rem;
+    font-weight:700;
+    line-height: 38px;
+}
+.footer-section .description p{
+    font-size:1.25rem;
+    font-weight:400;  
+    max-width:380px;
+}
+.footer-description,
+.footer-list,
+.footer-icon{
+    flex:1;
+    padding-left: 10px;
+}
+.footer-list h4, .footer-icon h4{
+    font-size:1.5rem;
+    font-weight:700;
+    margin-bottom: 32px;
+}
+.footer-list ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-list ul li  a{
+    text-decoration: none;
+    color:white;
+    font-size:1.25rem;
+    font-weight:400;
+}
+.icon-group{
+    gap:10px;
+}
+.icon-group img{
+    width:40px;
+    height: 40px;
+}
+
