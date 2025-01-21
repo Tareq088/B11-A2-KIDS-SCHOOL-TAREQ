@@ -33,6 +33,14 @@
     .arrow-group{
         display: none;
     }
+    /* stories section */
+    /* -------------------- */
+    .stories-section .grid-1{
+        display: none;
+    }
+    .area-small .date{
+        top:135px;
+    }
 
 
     
