@@ -30,9 +30,19 @@ body{
     --dark-blue:#5D58EF;
     --light-blue:#05D4DF;
     --black:#000;
+    --black-light:#202020;
+    --black-light-light:#808080;
+    --purple:#8700FF;
 }
-
-
+.text-center{
+    text-align: center;
+}
+.section-title-text{
+    font-size:3rem;
+    font-weight:800;
+    color:var(--black);
+    margin-bottom: 80px;
+}
 /* header section start */
 /* ------------------------ */
 nav{
@@ -118,7 +128,101 @@ hr{
     padding:10px 47px;
     background-color: var(--black);
 }
-.banner-image{
-    width: calc(100%-50px);
+banner-image img{
+    max-width: 100%;  
+}
+
+/* curriculum section start */
+/* ------------------------ */
+.curriculum{
+    padding-top: 60px;
+    margin-bottom: 80px;
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-position: 65% 20%;  
+}
+.curriculum-group{
+    gap:28px;
+}
+.curriculum .card{
+    border:none;
+    box-shadow:inset 0 0 28px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding:0 45px 40px;
+    flex: 1;
+}
+.curriculum .card-1{
+    background-image: linear-gradient(#DEF5FF,white
+    );
+}
+
+.curriculum .card-2{
+    background-image: linear-gradient(#FFF4DC,white
+    );
+}
+.curriculum .card-3{
+    background-image: linear-gradient(#F2E8FF,white
+    );
+}
+.curriculum-group img{
+    margin-top:50px;
+    margin-bottom: 30px;
+    max-width: 136px;
+    max-height: 110px;
+}
+.curriculum-group h4{
+    font-size:1.5rem;
+    font-weight:800;
+    color:var(--black-light);
+    margin-bottom: 30px;
+}
+.curriculum-group p{
+    font-family: "Raleway", serif;
+    font-size:1rem;
+    font-weight:500;
+    color:var(--black-light-light);
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+.curriculum-group a{
+    text-decoration: none;
+    font-size:1rem;
+    font-weight:800;
+    line-height: 28px;
+
+}
+.curriculum-group .anchor-1{
+    color:var(--sky-blue);
+}
+.curriculum-group .anchor-2{
+    color:var(--orange);
+}
+.curriculum-group .anchor-3{
+    color:var(--purple);
+}
+.curriculum .arrow-group{
+    justify-content: center;
+    gap: 10px;
+}
+.curriculum .arrow{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: var(--orange);
+}
+.curriculum .arrow-left{
+    background-image: url("../assets/Symbol-left.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 48%;
+    cursor: pointer;
+}
+.curriculum .arrow-right {
+    background-image: url("../assets/Symbol-right.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 48%;
+    cursor: pointer;
 }
 

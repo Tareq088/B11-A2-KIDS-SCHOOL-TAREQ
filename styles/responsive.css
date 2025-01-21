@@ -25,8 +25,15 @@
     }
     .banner-content p{
         font-size: 1rem;
-
     }
+    /* curriculum section */
+    .curriculum-group{
+        flex-direction: column;
+    }
+    .arrow-group{
+        display: none;
+    }
+
 
     
 }
