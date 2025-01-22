@@ -14,7 +14,7 @@
         display: block;
     }
     /* banner-section */
-
+    /* ------------------- */
     .banner{
         flex-direction: column-reverse;
         text-align: center;
@@ -27,31 +27,61 @@
         font-size: 1rem;
     }
     /* curriculum section */
+    .curriculum-continer{
+ 
+        background-size: 100%;
+    }
     .curriculum-group{
         flex-direction: column;
+        margin:0px 10px;
     }
     .arrow-group{
         display: none;
     }
     /* stories section */
     /* -------------------- */
+    .stories-container{
+        background-size: 100%;
+    }
     .stories-section .grid-1{
         display: none;
     }
+    .grid-container{       
+        grid-template-rows: 400px;
+        margin-bottom: 160px;
+    }
+    .grid-2{
+        /* grid-template-columns: calc((100% - 10px)/4) calc((100% - 10px)/4); */
+        grid-template-columns: 38% 38%;
+        grid-template-rows: 250px 250px;
+        gap:10px;
+    }
+
+    .grid-2 .area-small h4{
+        font-size:0.7rem;
+        margin:40px 10px 30px;
+        max-width:150px;
+        line-height: 20px;
+    }
     .area-small .date{
-        top:135px;
+        top:105px;
+        left:20px;
+        padding:5px 10px;
+        font-size:0.7rem;
+    }
+    /* marque section */
+    /* ------------------ */
+    .maque-image img{
+        max-width:18%;
     }
     /* footer section */
     /* ------------------- */
 
    .footer-content{
         flex-direction: column;
+        gap: 40PX;
     }
     .footer-section .footer-header .footer-title{
         font-size:1.25rem;
-
-    }
-
-
-    
+    }   
 }
